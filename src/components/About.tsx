@@ -38,7 +38,7 @@ function About() {
                 {/* Photo frame */}
                 <div className="relative w-48 h-56 rounded-2xl overflow-hidden border border-gray-300 dark:border-white/10 bg-gray-100 dark:bg-[#08081c] flex-shrink-0">
                   <img
-                    src="/about.jpeg"
+                    src={`${import.meta.env.BASE_URL}about.jpeg`}
                     alt="Shreya Maurya"
                     className="w-full h-full object-cover"
                   />

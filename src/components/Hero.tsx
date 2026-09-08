@@ -113,7 +113,7 @@ function Hero() {
               >
                 <div className="w-full h-full rounded-[calc(2rem-3px)] bg-gray-100 dark:bg-[#08081c] overflow-hidden">
                   <img
-                    src="/about.jpeg"
+                    src={`${import.meta.env.BASE_URL}about.jpeg`}
                     alt="Shreya Maurya"
                     className="w-full h-full object-cover"
                   />
